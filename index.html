@@ -1,15 +1,134 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>YOUR SITE TITLE</title>
-  <!-- Add some style to your site, see http://getbootstrap.com for details -->
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-</head>
-<body>
-  <h1>YOUR SITE TITLE</h1>
-  <p>Your text blahblahbhalbha</p>
-  <p>Another paragraph!  Maybe more text!</p>
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home</title><!INCLUDE TITLE-->
+
+      <!--Bootstrap!-->
+      <link href="css/bootstrap.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and
+media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!LINK THE FONT MOON-->
+    <link rel='stylesheet' href='css/index.css'/><!INCLUDE CSS NAME-->
+  </head>
+    <body>
+        <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="index.html"><img alt="Project Novo logo" src="images/logopic.png"></a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navHeaderCollapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="activated-box"><a class="activated-font" href="index.html">Home</a></li>
+                            <li><a href="Project_page_v1.html">Projects</a></li>
+                            <li><a href="About_page_v1.html">About</a></li>
+                            <li><a href="Contact_us_v1.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Websites for Non-profits</h1>
+                <p>Using technology to improve our community.</p>
+                <a class="buttons" href="Contact_us_v1.html">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="our-story">
+            <h1>Our Story</h1>
+                <h3> <span style="color: rgba(0, 191, 255, 1) ">Welcome!</span> Project Novo is a student led organization that uses technology to benefit our community. We rebuild websites for non-profits pro-bono and encourage the use of technology amongst our fellow students.
+                </h3>
+        </div>
+    
+    <div class="meet-the-team">
+        <div class="container">
+            <h1>Meet the Team</h1>
+                <p>Learn more about the dedidcated individuals that want to make a change.</p>
+            <a class="buttons" href="About_page_v1.html">About Us</a>
+        </div>
+    </div>
+
+        
+            
+    <div class="project">
+        
+            <div class="row no-gutters">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="img-holder">
+                        <img src="images/project_example.png">
+                    </div>
+                </div>
+                <div class="box col-xs-12 col-sm-6 col-md-6">
+                    <h1>Projects</h1>
+                    <p>Look through our project gallery! Our on-going and finished projects will be displayed here.</p>
+                    <div class="text-center">
+                        <a class="buttons" href="Project_page_v1.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="join-us">
+            <h1>Join Us</h1>
+                <h3>Interested in joining our ranks? Or are you a non-profit looking for a helping hand? Discover what we can do for you!
+                </h3>
+        <div class="text-center">
+            <a class="buttons" href="Contact_us_v1.html">Contact Us</a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container-fluid">
+                
+                <div class="row no-gutters">
+                    <p class="general">General</p>
+                    <div class="dash"></div>
+                    
+                    <div class="col-xs-12 col-md-6">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="About_page_v1.html">ABOUT</a></li>
+                            <li><a href="Project_page_v1.html">PROJECTS</a></li>
+                            <li><a href='Contact_us_v1.html'>CONTACT</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6">
+                        <ul class="legal">
+                            <li>
+                                <p>PROJECTNOVO.CS@GMAIL.COM</p>
+                            </li>
+                            <li>
+                                <p>©PROJECTNOVO.2015</p>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+            
+    
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+    </body>
 </html>
