@@ -1,0 +1,105 @@
+/*-----------Nav Bar Code Adjustment--------------*/
+ 
+#main-nav{
+    background-color: #ffffff;
+    font-weight: lighter;
+    border: none;
+    margin: 0;
+}
+ 
+.logo {
+    padding: 10px 0 5px 40px;
+}
+ 
+.navbar-nav li{
+    font-family: 'Moon';
+    font-size: 15px;
+    padding: 3px;
+    text-transform: uppercase;
+    text-decoration: none;   
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-tansition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in;
+    overflow: hidden;
+}
+ 
+.navbar-nav a {
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-tansition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in;
+}
+ 
+ 
+ 
+.navbar-nav li:hover{
+    background: rgba(0, 191, 255, 1);
+    cursor: pointer;
+}
+ 
+.navbar-nav li:hover a {
+    color: #ffffff !important;
+}
+/*------------Jumbotron--------------*/
+ 
+.jumbotron {
+    height: 45em;
+    width: 100%;
+    text-align: center; 
+    background: linear-gradient( rgba(0, 191, 255, 0.6), rgba(0, 191, 255, 0.6) ), url("../images/home_jumbo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+ 
+.jumbotron h1 {
+    font-size: 3.214em;
+    color: #ffffff;
+    margin-top: 4.4448em;
+    font-family: 'Moon';
+    font-weight: bold;
+}
+ 
+.jumbotron p {
+    font-family: 'Moon';
+    font-weight: bold;
+    font-size: 1.786em;
+    margin-bottom: 1.7997em;
+    margin-top: 1.199em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+ 
+.jumbotron .buttons{
+    font-family: 'Moon';
+    font-size: 1.786em;
+    font-weight: lighter;
+    background: transparent; 
+    padding: 10px 30px 10px 28px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    border: .12em solid #ffffff;
+    border-radius: .52em;
+    display: inline-block;
+    text-align: center;
+    transition: color .5s ease-out, background .5s ease-in;
+    transition: border-color .5s ease-out, background .5s ease-in;
+}
+ 
+.jumbotron .buttons:hover {
+    background-color: rgba(0, 191, 255, 1);
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    border-color: rgba(0, 191, 255, 1);
+}

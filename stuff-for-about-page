@@ -1,0 +1,120 @@
+10px = 0.7142857em;
+15px = 1.6666666em;
+20px = 1.4285571em;
+25px = 1.7857143em;
+30px = 2.1428571em;
+35px =2.5em;
+40px = 2.8571428em;
+45px = 3.2142857em;
+50px = 3.5714285em;
+55px = 3.9285714em;
+60px = 4.2857142em;
+65px = 4.6428571em;
+70px = 5em;
+
+.tab{
+    height: 35.714285em;
+    width: 100%;
+    background-color: rgba(0, 191, 255, 1);
+    text-align: center;
+}
+
+.tab h1{
+    margin-top: 0;
+    margin-left: 0.5715285em;
+    font-family: 'Moon';
+    font-weight: lighter;
+    font-size: 5em;
+    color: #ffffff;
+    padding-top: 2.142857em;
+    text-align: left;
+    
+}
+
+.tab p{
+    font-family: sans-serif;
+    font-size: 1.785714em;
+    color: #ffffff;
+    margin-left: 1.6em;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+.line{
+    border: .2142857em solid white;
+    border-radius: 1.785714em;
+    margin-left: 2.8571428em; 
+    margin-right: 2.1428571em;
+    margin-top: 0.7142857em;
+    margin-bottom: 1.4285571em;
+}
+
+.box{
+    position: relative;
+    height: 17.857142em;
+    width: 100%;
+    background-color: rgba(0, 191, 255, 1);
+    z-index: 9999;
+}
+    
+    
+.inner{
+    position: absolute;
+    bottom: 0px;
+    height: 17.857142em; 
+    width: 100%;
+    text-align: center;
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-tansition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in
+}
+
+.inner:hover {
+    background: rgba(0, 191, 255, 0.5);
+}
+
+.inner h1{
+    padding-top: 0.7142857em;
+    font-family: 'Moon';
+    font-weight: lighter;
+    font-size: 2.1428571em;
+    color: #ffffff;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    -webkit-transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -ms-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    transition: all 1.2s ease;
+}
+
+.inner:hover h1{
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
+.inner p{
+    padding-top: 0.7142857em;
+    margin-top: 3.5714285em; 
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    -webkit-transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -ms-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    transition: all 1.2s ease;
+}
+
+.inner:hover p{
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}

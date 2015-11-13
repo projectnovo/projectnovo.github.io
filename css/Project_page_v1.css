@@ -1,0 +1,496 @@
+
+
+.activated-box{
+    background-color: rgba(0, 191, 255, 1);
+	font-weight: lighter;
+	border: none;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.navbar-nav li .activated-font{
+    color: white !important;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@font-face {
+    font-family: 'Moon';
+    font-weight: bold;
+    src: url(../fonts/MoonBold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'Moon';
+    src: url(../fonts/MoonLight.otf) format("opentype")
+}
+
+#main-nav {
+	background-color: #ffffff;
+	font-weight: lighter;
+	border: none;
+    font-size: 1em;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+    
+}
+
+.logo {
+    font-size: 1em;
+    padding: .714285em .6em 2.85714em;
+}
+
+.logo img{
+    height: 2.2em;
+}
+
+.navbar-nav li{
+    font-family: 'Moon';
+    font-size: 1.071428em;
+    font-weight: 300;
+    padding: .20000em ;
+    text-transform: uppercase;
+    text-decoration: none;   
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-tansition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in;
+    overflow: hidden;
+}
+
+.navbar-nav a {
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-tansition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in;
+}
+
+
+
+.navbar-nav li:hover{
+    background: rgba(0, 191, 255, 1);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.navbar-nav li:hover a {
+    color: white !important;
+}
+
+.jumbotron {
+    height: 45em;
+    width: 100%;
+    text-align: center; 
+    background: linear-gradient( rgba(0, 191, 255, 0.6), rgba(0, 191, 255, 0.6) ), url("../images/home_jumbo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.jumbotron h1 {
+	font-size: 2.4em;
+    color: #ffffff;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Moon';
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-family: 'Moon';
+	font-weight: bold;
+    font-size: 1.2em;
+	margin-bottom: 0;
+	margin-top: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.info-tab{
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.holder{
+    height: 10em;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+span.glyphicon-remove-circle,
+span.glyphicon-refresh,
+span.glyphicon-ok-sign,
+span.glyphicon-globe{
+    font-size: 7em;
+    color: #ffffff;
+    padding: .25em;
+    background-color: rgba(0, 191, 255, 1);
+    border-radius: 100em;
+}
+
+.icon-text{
+    font-family: Moon;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: rgba(0, 191, 255, 1);
+    padding-top: 1em;
+    text-align: center;
+    margin-left: 1.3em;
+    margin-right: 1.3em;
+}
+
+.projects{
+    width: 100%;
+    background-color: rgba(0, 191, 255, 1);
+}
+
+.projects h1{
+    margin-top: 0;
+    padding-top: 1em;
+    color: #ffffff;
+    font-size: 3em;  
+    font-family: 'Moon';
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line{
+    border: 0.2em solid white;
+    border-radius: 2em;
+    margin-bottom: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.cliente-top-row{
+    height: 14.2857em;
+	margin-top: 1.428571em;
+    margin-bottom: 1.428571em;
+	border: rgba(0, 191, 255, 1) medium solid;
+	border-radius: 0.3571428571em;
+	-moz-border-radius: 0.3571428571em;
+	-webkit-border-radius: 0.3571428571em;
+    text-align: center;
+    background-color: #ffffff
+}
+
+.cliente-bottom-row{
+    height: 14.2857em;
+	margin-top: 0px;
+    margin-bottom: 1.428571em;
+	border: rgba(0, 191, 255, 1) medium solid;
+	border-radius: 0.3571428571em;
+	-moz-border-radius: 0.3571428571em;
+	-webkit-border-radius: 0.3571428571em;
+    text-align: center;
+    background-color: #ffffff
+}
+
+
+.box p{
+    margin-top: 3.8em;
+    font-family: 'Moon';
+    font-size: 1.428571em;
+    font-weight: lighter;
+    background: transparent; 
+    padding: .25em 1.25em .25em 0.92em;
+    color: rgba(0, 191, 255, 1);
+    border: 2px solid rgba(0, 191, 255, 1);
+    display: inline-block;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 2em;
+    font-size: 1em;
+    font-family: 'Moon';
+    color: #fffffff;
+    background-color: #3d3d3d;
+}
+
+.dash{
+    border: 0.25em solid #ffffff;
+    border-radius: 2em;
+    margin-top: .2em;
+    margin-bottom: 1em;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+
+.footer ul {
+    list-style:none;
+    padding-left:0;
+    font-size: 1.071428571em;
+    margin-bottom: 2em;
+}
+
+.footer li {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.footer li a {
+    
+    text-decoration:none;
+    color: #ffffff;
+    
+    padding-left: .4em;
+    padding-right: .4em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    border-radius: 5em;
+    
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-tansition: color .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .5s ease-out, background .5s ease-in;  
+}
+
+.footer li a:visited {
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #545454;
+}
+
+.footer li a:active {
+    text-decoration: none;
+}
+
+.general {
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.legal{
+    margin-bottom: 1em;
+    font-size: .8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+/**********LOGO************/
+
+@media screen and (min-width: 768px){
+    .logo {
+        padding: .96em 1.2em 2.3em;
+    }
+}
+
+/**********Jumbotron************/
+
+@media screen and (min-height: 550px){
+    .jumbotron h1{
+        margin-top: 5.8em;
+        font-size: 2.6em;
+    }
+    
+    .jumbotron p{
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-height: 600px){
+    .jumbotron{
+        height: 47em;
+    }
+    .jumbotron h1{
+        margin-top: 6.2em;
+        font-size: 2.8em;
+    }
+    
+    .jumbotron p{
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (min-height: 620px){
+    .jumbotron{
+        height: 47em;
+    }
+    .jumbotron h1{
+        font-size: 2.8em;
+        margin-top: 6.3em;
+    }
+    
+}
+
+@media screen and (min-height: 650px){
+    .jumbotron{
+        height: 49em;
+    }
+    .jumbotron h1{
+        margin-top:6.4em;
+    }
+}
+
+
+@media screen and (min-height: 680px){
+    .jumbotron{
+        height: 55em;
+    }
+    .jumbotron h1{
+        margin-top: 6.6em;
+    }
+}
+
+@media screen and (min-height: 700px){
+    .jumbotron{
+        height: 57em;
+    }
+    .jumbotron h1{
+        margin-top: 6.7em;
+    }
+}
+
+
+@media screen and (min-height: 725px){
+    .jumbotron{
+        height: 57em;
+    }
+    .jumbotron h1{
+        margin-top: 6.75em;
+    }
+}
+
+@media screen and (min-height: 750px){
+    .jumbotron{
+        height: 58em;
+    }
+    .jumbotron h1{
+        margin-top: 6.8em;
+        font-size: 3.2em;
+    }
+    
+    .jumbotron p{
+        font-size: 2.1em;
+    }
+}
+
+@media screen and (min-height: 800px){
+    .jumbotron{
+        height: 59em;
+    }
+    .jumbotron h1{
+        margin-top: 7em;
+        font-size: 3.7em;
+    }
+    
+    .jumbotron p{
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (min-height: 900px){
+    .jumbotron{
+        height: 66em;
+    }
+    .jumbotron h1{
+        margin-top: 5em;
+        font-size: 4.4em;
+    }
+    
+    .jumbotron p{
+        font-size: 2.4em;
+    }
+}
+
+@media screen and (min-height: 950px){
+    .jumbotron{
+        height: 69em;
+    }
+    .jumbotron h1{
+        margin-top: 5em;
+        font-size: 4.4em;
+    }
+    
+    .jumbotron p{
+        font-size: 2.4em;
+    }
+}
+
+/**********Footer************/
+
+@media screen and (min-width: 992px){
+    
+    .footer li{
+        display: inline-block;
+        text-align: left;
+    }
+    
+    
+    .footer ul{
+        margin-left: 5em;
+    }
+    
+    .legal{
+        text-align: right;
+        margin-right: 5em;
+    }
+    
+    .legal p{
+       padding-left: .8em; 
+    }
+}
+
+
+/**********Line************/
+
+.line-top{
+    border: .2142857em solid rgba(0, 191, 255, 1);
+    border-radius: 1.785714em;
+    margin-top: 0.7142857em;
+    margin-bottom: 1.4285571em;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+.process{
+    padding-top: 0;
+    margin-top: 0;
+    font-family: 'Moon';
+    font-weight: bolder;
+    font-size: 4em;
+    color: rgba(0, 191, 255, 1);
+    text-align: center;
+}
+
+@media screen and (min-width: 992px){
+    .line-top{
+        width: 23em;
+        margin-bottom: 2em;
+    }
+
+}
